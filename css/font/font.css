@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'CeraBasic-Bold';
+  src: url('CeraBasic-Bold.eot');
+  src: url('CeraBasic-Bold.eot?#iefix') format('embedded-opentype'),
+       url('CeraBasic-Bold.svg#CeraBasic-Bold') format('svg'),
+       url('CeraBasic-Bold.ttf') format('truetype'),
+       url('CeraBasic-Bold.woff') format('woff'),
+       url('CeraBasic-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

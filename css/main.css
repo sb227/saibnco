@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* main.css - 메인페이지 css */
+
+/* 파일 merging */
+@import url(reset.css);
+@import url(font/font.css);
+
+/*공통***********************/
+.wrap{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.e7acbd{
+    color: #e7acbd;
+}
+
+/************ 헤더영역****************/
+header{
+    background: #fce8ec;
+    mar
+}
+
+.header{
+    border: 1px solid red;
+    height: 120px;
+    display: flex;
+    position: relative;
+}
+
+.gnb, .lnb{
+    display: flex;
+    font-family: 'CeraBasic-Bold';
+    position: absolute;
+}
+
+.gnb{
+    width: 35%;
+    text-align: center;
+}
+
+.gnb li{
+    width: 100px;
+    position: relative;
+}
+
+.gnb a{
+    font-family: 'CeraBasic-Bold';
+    font-size: 14px;
+}
+
+.icon_link{
+    position: absolute;
+}
+
+.left{
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right{
+    right: 8%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right span{
+    font-weight: 800;
+    font-family: 'Nanum Gothic', 'sans-serif';
+    padding-left: 3px;
+}
+
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.lnb{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}

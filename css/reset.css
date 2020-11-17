@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* reset.css - 요소 초기화 */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+
+/*
+font-family: 'CeraBasic-Bold';
+font-family: 'Nanum Gothic', sans-serif;
+*/
+
+html,body,h1,h2,h3,h4,h5,h6,ul,ol,p{
+    margin: 0;
+    padding: 0;
+    color: #3b3f56;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: #3b3f56;
+}
+img{
+    border: none;
+    /* img 링크시 테두리 없앰*/
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+
