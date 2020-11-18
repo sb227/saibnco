@@ -7,14 +7,19 @@
 
 /*공통***********************/
 .wrap{
+    border: 1px solid blue;
     width: 1000px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .e7acbd{
     color: #e7acbd;
 }
 
+.BE4B78{
+    color: #BE4B78;
+}
 /************ 헤더영역****************/
 header{
     background: #fce8ec;
@@ -22,7 +27,6 @@ header{
 }
 
 .header{
-    border: 1px solid red;
     height: 120px;
     display: flex;
     position: relative;
@@ -83,3 +87,209 @@ header{
     right: 0;
     transform: translateY(-50%);
 }
+
+/******************** 컨텐츠영역***************/
+/* 메인컨텐츠 */
+.main{
+    width: 100%;
+}
+
+.main img{
+    display: block;
+    width: 100%;
+}
+
+/* 프로덕트 */
+.products{
+    height: 800px;
+    background: linear-gradient(180deg, white, white, rgba(231, 172, 189, 0.28));
+}
+
+.cont_tit{
+    padding: 10vmin 0;
+    font-size: 4vmin;   
+    font-weight: 100;
+}
+
+.products_list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.products_list li{
+    width: 30%;
+}
+
+.products_list img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.products_list a{
+    display: block;
+}
+
+.prd_txt{
+    color: #797979;
+    font-size: 14px;
+}
+
+.products_list h3{
+    margin: 5px 0 10px 0;
+    font-size: 16px;
+}
+
+.prd_btn{
+    display: block;
+    margin: 5vmin auto;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #e7acbd;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.prd_btn:hover{
+    transform: scale(1.2);
+}
+
+/* 프로미스 */
+
+.prm_list{
+    display: flex;
+    width: 5000px;
+}
+
+.prm_list li{
+    display: flex;
+    width: 1000px;
+}
+
+.prm_left, .prm_right{
+    width: 50%;
+}
+
+.prm_left img{
+    width: 100%;
+    height: 100%;
+}
+
+.prm_right{
+    padding-left: 20px;
+    background-color: #fce8ec;
+}
+
+.prm_title, .prm_eng{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+}
+
+.prm_title{
+    color: #d0d0d0;
+    font-size: 6vmin;
+}
+
+.prm_eng{
+    padding-top: 8vmin;
+    font-size: 6vmin;
+    color: #e7acbd;
+}
+
+.prm_kr{
+    font-size: 18px;
+    padding-top: 3vmin;
+    line-height: 1.4;
+}
+
+.prm_navi{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin: 12vmin auto;
+}
+
+.prm_navi li a{
+    display: block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #dedbdb;
+}
+
+.prm_navi li.on a{
+    background-color: #f3bfc8;
+}
+
+.prm_review{
+    display: flex;
+    justify-content: space-around;
+    width: 200%;
+}
+
+.prm_review li{
+    background-color: #f8e4e8;
+    height: 400px;
+    width: 15%;
+    padding: 1.5%;
+}
+
+.prm_review_cont{
+    color: #767676;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 13% 0;
+}
+
+.prm_review_about{
+    text-align: right;
+    font-size: 14px;
+    color: #e0a6b8;
+}
+
+.prm_navi.bottom{
+    width: 30px;
+    margin-top: 30px;
+}
+
+/* 켐페인 */
+.campaign{
+    background-color: #fce8ec;
+    height: 900px;
+}
+
+.campaign_main{
+    display: flex;
+}
+
+.cpn_right{
+    padding-left: 20px;
+}
+
+.cpn_eng{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    color: #e7acbd;
+    font-size: 4vmin;
+    padding-top: 15vmin;
+    line-height: 1;
+}
+
+.cpn_kr{
+    padding-top: 14vmin;
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
