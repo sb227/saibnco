@@ -7,7 +7,7 @@
 
 /*공통***********************/
 .wrap{
-    border: 1px solid blue;
+/*    border: 1px solid blue;*/
     width: 1000px;
     margin: 0 auto;
     overflow: hidden;
@@ -20,16 +20,28 @@
 .BE4B78{
     color: #BE4B78;
 }
+
+.center{
+    text-align: center;
+}
+
+.body{
+    position: relative;
+}
 /************ 헤더영역****************/
 header{
     background: #fce8ec;
-    mar
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    
 }
 
 .header{
+    position: relative;
     height: 120px;
     display: flex;
-    position: relative;
 }
 
 .gnb, .lnb{
@@ -89,6 +101,9 @@ header{
 }
 
 /******************** 컨텐츠영역***************/
+.cont_wrap{
+    margin-top: 120px;
+}
 /* 메인컨텐츠 */
 .main{
     width: 100%;
@@ -106,8 +121,9 @@ header{
 }
 
 .cont_tit{
+    font-family: 'Catamaran', sans-serif;
     padding: 10vmin 0;
-    font-size: 4vmin;   
+    font-size: 3vmin;   
     font-weight: 100;
 }
 
@@ -282,14 +298,121 @@ header{
     font-size: 18px;
 }
 
+/* 링크 영역 */
+.link_list{
+    height: 140px;
+    display: flex;
+    margin: 3% 0;
+}
 
+.link_list li{
+    width: 33.33%;
+    border-right: 1px solid #ebb2c0;
+    padding: 3% 0;
+}
 
+.link_list li:nth-child(2){
+    padding: 3% 8%;
+}
 
+.link_list li:last-child{
+    border: 0;
+    padding-left: 8%;
+}
 
+.link_tit{
+    font-size: 3vmin;
+    font-family: 'Catamaran', sans-serif;
+}
 
+.link_list a{
+    display: block;
+    
+}
 
+/* 수상 */
+.awards{
+    background-color: #fce8ec;
+}
 
+.awards img{
+    display: block;
+    margin: 0 auto;
+}
 
+/* 인스타 */
+.insta_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5%;
+}
 
+.insta_list li{
+    width: 30%
+}
 
+/********************** 푸터 *******************/
+footer{
+    background-color: #fce8ec;
+    padding: 3% 0;
+    font-size: 13px;
+    line-height: 1.5;
+}
+.ft_1 b, .ft_2 , .ft_3{
+    color: #c5768c;
+}
+
+.ft_1, .ft_4, .ft_4 a, .ft_5{
+    color: #cca6b0;
+}
+
+/************************** 픽스 ****************************/
+.fixed{
+    position: fixed;
+    z-index: 1;
+    right: 30px;
+    bottom: 30px;
+}
+.fixed li{
+    border-radius: 50%;
+}
+
+.fixed a{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.fixed li:first-child{
+    margin-bottom: 10%;
+}
+
+.top_btn{
+    background: url("../images/icon_top.png") no-repeat center/cover;
+}
+
+.chat_btn{
+    background-color: #fce8ec;
+    position: relative;
+    box-shadow: 3px 3px 10px #ccc;
+}
+
+.chat_btn:hover{
+    box-shadow: 3px 3px 10px #aaa;
+}
+
+.chat_btn span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    width: 50%;
+    height: 50%;
+    background-image: url("../images/icon_chat.png");
+    background-size: 91px;
+    background-position: 2px -22px;
+    background-repeat: no-repeat;
+}
 
